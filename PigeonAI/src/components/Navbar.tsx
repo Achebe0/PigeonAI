@@ -8,7 +8,7 @@ function NavBar() {
     <header className="navbar">
       {/* Logo on far left */}
       <a href="#" className="logo">
-        <img src={PinGeoLogo} alt="Logo" height="10px" />
+        <img src={PinGeoLogo} alt="Logo" height="100px" />
       </a>
 
       {/* Links on far right */}
