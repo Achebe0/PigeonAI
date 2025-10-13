@@ -2,10 +2,7 @@ import { useState } from "react";
 
 function Profile(){
 
-    
-    return (
-        <form action=""></form>
-    );
+   
 
 }
 

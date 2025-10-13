@@ -1,17 +1,20 @@
 import PinGeoLogo from '../assets/PinGeo_logo.png';
 import './Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser } from '@fortawesome/free-regular-svg-icons'; // can change to solid if you prefer
+import { faUser } from '@fortawesome/free-regular-svg-icons';
 
 function NavBar() {
   return (
     <header className="navbar">
-      <img src={PinGeoLogo} alt="Logo" className="logo" height="120px" />
+      {/* Logo on far left */}
+      <a href="#" className="logo">
+        <img src={PinGeoLogo} alt="Logo" height="10px" />
+      </a>
 
+      {/* Links on far right */}
       <nav className="nav-links">
         <a href="#">Home</a>
         <a href="#">Favourites</a>
-        <FontAwesomeIcon icon={faUser} size="lg" />
       </nav>
     </header>
   );
