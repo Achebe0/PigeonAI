@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+
 .navbar {
   background-color: #e0e0e0;       /* light grey */
   display: flex;                   /* lays out children horizontally */
@@ -5,7 +11,8 @@
   align-items: center;             /* vertically center items */
   padding: 0 20px;                 /* space on sides */
   height: 60px;                    /* fixed height */
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* subtle shadow */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
 }
 
 /* logo text */
