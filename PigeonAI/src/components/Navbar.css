@@ -1,0 +1,28 @@
+.navbar {
+  background-color: #e0e0e0;       /* light grey */
+  display: flex;                   /* lays out children horizontally */
+  justify-content: space-between;  /* logo on left, links on right */
+  align-items: center;             /* vertically center items */
+  padding: 0 20px;                 /* space on sides */
+  height: 60px;                    /* fixed height */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* subtle shadow */
+}
+
+/* logo text */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* link container */
+.nav-links a {
+  color: black;
+  text-decoration: none;
+  margin-left: 20px;
+  transition: color 0.3s ease;
+}
+
+/* hover effect */
+.nav-links a:hover {
+  color: #555;
+}
