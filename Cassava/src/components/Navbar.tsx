@@ -1,4 +1,4 @@
-import PinGeoLogo from '../assets/PinGeo_logo.png';
+import PinGeoLogo from '../assets/Cassava.png';
 import './Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-regular-svg-icons';
@@ -15,6 +15,7 @@ function NavBar() {
       <nav className="nav-links">
         <a href="#">Home</a>
         <a href="#">Favourites</a>
+        <a href="#">Profile</a>
       </nav>
     </header>
   );
